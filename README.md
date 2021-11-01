@@ -8,7 +8,7 @@ This is a company handbook template meant to be used by any company that wants a
   - Values
   - Per-department guides
   - How to use the handbook content
-- Dynamic content  
+- Dynamic content
   - Team member bios (to be added)
   - Feature lists (to be added)
   - Pricing tiers (to be added)
