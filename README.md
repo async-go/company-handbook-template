@@ -3,8 +3,10 @@
 This is a company handbook template in [Next.js](https://nextjs.org/), inspired by great ones like the ones by [GitLab](https://about.gitlab.com/handbook/) and [Sourcegraph](https://handbook.sourcegraph.com). It is intended to help you get some of the basic infrastructure up and running quickly, with the key difference that company handbook-specific data sources are built in. For example:
 
 - Static content
-  - Team documentation
+  - Company information
   - Values
+  - Per-department guides
+  - How to use the handbook content
 - Dynamic content  
   - Team member bios (to be added)
   - Feature lists (to be added)
