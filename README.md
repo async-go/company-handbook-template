@@ -4,6 +4,7 @@ This is a company handbook template in [Next.js](https://nextjs.org/), inspired 
 
 - Static content
   - Company information
+  - Company-wide practices (for example, communication and async)
   - Values
   - Per-department guides
   - How to use the handbook content
