@@ -22,7 +22,7 @@ This template is designed to be opinionated. It includes examples and content th
 
 ## Wiki vs. Static Site
 
-One thing you might be wondering is why not just use a wiki or live document editor instead of a static site for your company handbook. The main reason is the pull request workflow, where every proposed change can first be discussed using the discussion features built-in to your code host. These preserve the "who" and "why" for a change much better than the alternatives, which is very important in the context of a company handbook.
+One thing you might be wondering is why not just use a wiki or live document editor instead of a static site for your company handbook. The main reason is the pull request workflow, where every proposed change can first be discussed using the features built-in to the merge flow of your code host. These preserve the "who" and "why" for a change much better than the alternatives, which is very important in the context of a company handbook.
 
 ## Preview
 
