@@ -2,4 +2,5 @@
 
 Hello world!
 
-- [Team members](company/team)
+- [Editing this handbook](./editing/)
+- [Team members](./company/team)
