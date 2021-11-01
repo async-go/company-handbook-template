@@ -1,6 +1,6 @@
 # Company Handbook Template
 
-This is a company handbook template in [Next.js](https://nextjs.org/), inspired by great ones like the ones by [GitLab](https://about.gitlab.com/handbook/) and [Sourcegraph](https://handbook.sourcegraph.com). It is intended to help you get some of the basic infrastructure up and running quickly, with the key difference that company handbook-specific data sources are built in. For example:
+This is a company handbook template meant to be used by any company that wants an easy to setup but highly customizable public or private handbook. It is implemented in [Next.js](https://nextjs.org/), and is inspired by great ones like the ones made by [GitLab](https://about.gitlab.com/handbook/) and [Sourcegraph](https://handbook.sourcegraph.com). It is intended to help you get some of the basic infrastructure up and running quickly, with the key difference that company handbook-specific data sources are built in. For example:
 
 - Static content
   - Company information
