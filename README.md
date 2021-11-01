@@ -18,7 +18,7 @@ It's designed to make all of this easy to interact with, both for technical and 
 
 ## Opinionated examples
 
-This template is designed to be an opinionated template. It includes templates, pages, examples, and content that is based on lessons learned we've seen work well in many places. You're of course free to diverge and remove/add anything you like, but we explicitly are aiming for a starting point that people new to these kinds of handbooks can get value and learn from.
+This template is designed to be opinionated. It includes examples and content that are based on lessons learned we've seen work well in many places. You're of course free to diverge and remove/add anything you like, but we explicitly are aiming for a starting point that people new to these kinds of handbooks can get value and learn from.
 
 ## Wiki vs. Static Site
 
