@@ -14,19 +14,25 @@ This is a company handbook template meant to be used by any company that wants a
   - Pricing tiers (to be added)
   - Product areas (to be added)
 
-It's designed to make all of this easy to interact with, both for technical and non-technical team members.
-
 ## Principles
 
 ### Opinionated examples
 
 This template is designed to be opinionated. It includes examples and content that are based on lessons learned we've seen work well in many places. You're of course free to diverge and remove/add anything you like, but we explicitly are aiming for a starting point that people new to these kinds of handbooks can get value and learn from.
 
-### Wiki vs. Static Site
+### Ease of use
 
-One thing you might be wondering is why not just use a wiki or live document editor instead of a static site for your company handbook. The main reason is the pull request workflow, where every proposed change can first be discussed using the features built-in to the merge flow of your code host. These preserve the "who" and "why" for a change much better than the alternatives, which is very important in the context of a company handbook.
+Most company handbooks will be used by both technical and non-technical team members, so it's important that we make the basic editing use case as easy as possible. We do this by making the base content easy to find, and using basic markdown for nearly all pages.
 
-## Editing instrutions
+### Wiki vs. static site
+
+You might be wondering why not just use a wiki or live document editor instead of a static site for your company handbook. The main reason is the pull request workflow, where every proposed change can first be discussed using the features built-in to the merge flow of your code host. These preserve the "who" and "why" for a change much better than the alternatives, which is very important in the context of a company handbook.
+
+Additionally, changes to a handbook often require updates to multiple places to ensure things remain consistent, and this is also not well handled by a wiki.
+
+Finally, a static site offers a much deeper level of customization and automation for teams that want to go down that route.
+
+## Editing instructions
 
 The handbook is 'self-documenting' in that the content describing how to edit it is built and deployed with the handbook itself. You can read everything by browsing the editing documentation [in this repository](./pages/editing/index.md) or at `/editing/` on your deployed site.
 
