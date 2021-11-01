@@ -1,4 +1,4 @@
-# Company Handbook Template
+# Company handbook template
 
 This is a company handbook template meant to be used by any company that wants an easy to setup but highly customizable public or private handbook. It is implemented in [Next.js](https://nextjs.org/), and is inspired by great ones like the ones made by [GitLab](https://about.gitlab.com/handbook/) and [Sourcegraph](https://handbook.sourcegraph.com). It is intended to help you get some of the basic infrastructure up and running quickly, with the key difference that company handbook-specific data sources are built in. For example:
 
@@ -15,6 +15,14 @@ This is a company handbook template meant to be used by any company that wants a
   - Product areas (to be added)
 
 It's designed to make all of this easy to interact with, both for technical and non-technical team members.
+
+## Opinionated examples
+
+This template is designed to be an opinionated template. It includes templates, pages, examples, and content that is based on lessons learned we've seen work well in many places. You're of course free to diverge and remove/add anything you like, but we explicitly are aiming for a starting point that people new to these kinds of handbooks can get value and learn from.
+
+## Wiki vs. Static Site
+
+One thing you might be wondering is why not just use a wiki or live document editor instead of a static site for your company handbook. The main reason is the pull request workflow, where every proposed change can first be discussed using the discussion features built-in to your code host. These preserve the "who" and "why" for a change much better than the alternatives, which is very important in the context of a company handbook.
 
 ## Preview
 
