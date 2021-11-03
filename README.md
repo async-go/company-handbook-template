@@ -64,7 +64,7 @@ Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&ut
 
 ## Attribution
 
-The styling in the handbook uses the Bootstrap Docs CSS used to power [https://docs.bootstrap.com] in combination with Bootstrap itself.
+The styling in the handbook uses the Bootstrap Docs CSS used to power [https://docs.bootstrap.com] in combination with Bootstrap itself in order to have nice starter styling.
 
  * Bootstrap Docs (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
