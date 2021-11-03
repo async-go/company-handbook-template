@@ -6,7 +6,7 @@ The content of this handbook is kept in a GitHub repository, with all of the pag
 
 ## Basic editing
 
-You can add `.md`, `.mdx`, `.js`, and `.jsx` files into any folders underneath there, and they will automatically render as pages, at the same path they are added.
+You can add `.md`, `.mdx`, `.js`, and `.jsx` files into any folders underneath `/pages`, and they will automatically render as pages, at the same path they are added.
 
 ## Images
 
