@@ -15,7 +15,7 @@ export default function Layout({ children }) {
       <div className="container">
         <main className="bd-main">
           <div className="bd-content">{children}</div>
-          <div className="bd-toc mt-4 mb-5 my-md-0 ps-xl-3 mb-lg-5 text-muted">
+          <div className="bd-toc">
             <TableOfContents />
           </div>
         </main>
