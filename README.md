@@ -61,3 +61,13 @@ yarn create next-app --example https://github.com/async-go/company-handbook-temp
 ```
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+
+## Attribution
+
+The styling in the handbook uses the Bootstrap Docs CSS used to power [https://docs.bootstrap.com] in combination with Bootstrap itself.
+
+ * Bootstrap Docs (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under the Creative Commons Attribution 3.0 Unported License.
+ * For details, see https://creativecommons.org/licenses/by/3.0/.
