@@ -14,6 +14,8 @@ Recommendations on how to use images in your handbook is still TBD.
 
 ## Advanced editing
 
+You can get a lot of this handbook without taking advantage of any of the below advanced features, but for more complicated use cases they are available.
+
 ### Embedded JavaScript in markdown
 
 This handbook supports the use of embedded react components on markdown pages using MDX. To take advantage of this optional feature, you should:
