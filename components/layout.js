@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Navbar from "./navbar";
+import Header from "./header";
 
 export default function Layout({ children }) {
   return (
@@ -9,9 +9,7 @@ export default function Layout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
-      <header>
-        <Navbar />
-      </header>
+      <Header />
 
       <div className="container">
         <main>{children}</main>
