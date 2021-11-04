@@ -13,7 +13,7 @@ export default function Layout({ children }) {
         <Navbar />
       </header>
 
-      <div className="container-fluid">
+      <div className="container">
         <div className="row flex-xl-nowrap">
           <main className="col-xl-10 bd-content">{children}</main>
 
