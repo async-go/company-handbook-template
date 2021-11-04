@@ -1,5 +1,7 @@
 # Editing handbook content
 
+{{TOC}}
+
 ## Repository structure
 
 The content of this handbook is kept in a GitHub repository, with all of the pages that are served for the site underneath the `/pages` folder.
@@ -7,6 +9,10 @@ The content of this handbook is kept in a GitHub repository, with all of the pag
 ## Basic editing
 
 You can add `.md`, `.mdx`, `.js`, and `.jsx` files into any folders underneath `/pages`, and they will automatically render as pages, at the same path they are added.
+
+## Table of contents
+
+You can add a table of contents anywhere on a page by adding the text `{{TOC}}`. This will be replaced at build time with a table of contents for that page.
 
 ## Images
 

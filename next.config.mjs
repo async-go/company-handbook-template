@@ -1,6 +1,6 @@
 import withMDX from '@next/mdx'
 import slug from 'rehype-slug'
-import toc from 'rehype-toc'
+import toc from '@atomictech/rehype-toc' // pending merge of https://github.com/JS-DevTools/rehype-toc/pull/3
 import headings from 'rehype-autolink-headings'
 
 const mdx = withMDX({
@@ -18,11 +18,8 @@ const mdx = withMDX({
         },
       }],
       [toc, {
+        placeholder: "{{TOC}}",
         headings: ['h1', 'h2', 'h3'],
-        position: "afterbegin",
-        cssClasses: {
-          toc: '',
-        }
       }],
     ],
     remarkPlugins: [],
