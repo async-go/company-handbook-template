@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Header from "./header";
+import Breadcrumbs from "./breadcrumbs";
 
 export default function Layout({ children }) {
   return (
@@ -12,7 +13,10 @@ export default function Layout({ children }) {
       <Header />
 
       <div className="container">
-        <main>{children}</main>
+        <main>
+          <Breadcrumbs />
+          {children}
+        </main>
       </div>
     </>
   );
