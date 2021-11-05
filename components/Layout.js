@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Header from "./header";
-import Breadcrumbs from "./breadcrumbs";
+import Header from "./Header";
+import Breadcrumbs from "./Breadcrumbs";
 
 export default function Layout({ children }) {
   return (

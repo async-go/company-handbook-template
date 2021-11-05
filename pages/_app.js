@@ -1,4 +1,4 @@
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "fontawesome-free/css/all.css";
