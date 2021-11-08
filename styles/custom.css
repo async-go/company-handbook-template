@@ -1,14 +1,13 @@
 /* Add your own custom styling here */
 
 .anchor-link {
-    padding-left: 1rem;
-    font-size: 1.5rem;
-    color: #eeeeee;
-
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  color: #eeeeee;
 }
 
 .anchor-link:hover {
-    padding-left: 1rem;
-    font-size: 1.5rem;
-    color: #0d6efd;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  color: #0d6efd;
 }

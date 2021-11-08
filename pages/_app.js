@@ -1,4 +1,6 @@
 import Layout from "../components/Layout";
+import { React } from "react";
+import PropTypes from "prop-types";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "fontawesome-free/css/all.css";
@@ -11,3 +13,8 @@ export default function MyApp({ Component, pageProps }) {
     </Layout>
   );
 }
+
+MyApp.propTypes = {
+  Component: PropTypes.any,
+  pageProps: PropTypes.func,
+};

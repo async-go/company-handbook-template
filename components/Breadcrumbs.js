@@ -16,11 +16,10 @@ export default function Breadcrumbs() {
             </React.Fragment>
           );
         } else {
-          const link =
-            router.route
-              .split("/")
-              .slice(0, index + 1)
-              .join("/");
+          const link = router.route
+            .split("/")
+            .slice(0, index + 1)
+            .join("/");
           return (
             <React.Fragment key={link}>
               {" / "}

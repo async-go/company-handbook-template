@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Header from "./Header";
 import Breadcrumbs from "./Breadcrumbs";
+import { React } from "react";
+import PropTypes from "prop-types";
 
 export default function Layout({ children }) {
   return (
@@ -21,3 +23,7 @@ export default function Layout({ children }) {
     </>
   );
 }
+
+Layout.propTypes = {
+  children: PropTypes.any,
+};
