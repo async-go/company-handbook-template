@@ -6,7 +6,7 @@ The handbook is designed to be simple to use, to edit the content on this or any
 
 ## What's next
 
-We have a lot of ideas on how to improve this handbook and make it easier to get started. You can check out our public [issues tracker](https://github.com/async-go/company-handbook-template/issues) and see what we have planned or submit your own ideas.
+We have a lot of ideas on how to improve this handbook template to make it easier to get started. You can check out our public [issues tracker](https://github.com/async-go/company-handbook-template/issues) and see what we have planned or submit your own ideas.
 
 ## Quick links
 
