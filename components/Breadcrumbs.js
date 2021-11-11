@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Breadcrumbs() {
   const router = useRouter();
-  if (router.route == "/_error") {
+  if (router.route == "/_error" || router.route == "/404") {
     return null;
   }
   return (
