@@ -6,7 +6,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  /* Force light mode to avoid issue with white flashes between pages */
+  /* Force simple.css to use light mode to avoid issue with white flashes between pages */
   :root {
     --bg: #FFF;
     --accent-bg: #F5F7FF;
