@@ -14,6 +14,10 @@ This is a company handbook template meant to be used by any company that wants a
   - Pricing tiers (to be added)
   - Product areas (to be added)
 
+## Sample site
+
+You can browse a sample site containing the latest deployed template from `main` here at https://company-handbook-template-iota.vercel.app/.
+
 ## Contributing
 
 Although it's early days, contributors are welcome! Feel free to open an issue to discuss. There's lots to implement.
