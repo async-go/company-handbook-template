@@ -24,6 +24,7 @@ const mdx = withMDX({
         toc,
         {
           placeholder: "{{TOC}}",
+          nav: false,
           headings: ["h1", "h2", "h3"],
         },
       ],

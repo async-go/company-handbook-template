@@ -4,12 +4,11 @@ export default function Header() {
   return (
     <>
       <header>
-        <nav className="navbar navbar-light bg-white mb-3">
-          <div className="container-fluid">
-            <a className="navbar-brand" href="/">
+        <nav>
+            <a href="/">
               Home
             </a>
-          </div>
+            <a href="/company/team">Team</a>
         </nav>
       </header>
     </>
