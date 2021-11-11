@@ -1,7 +1,16 @@
 /* Add your own custom styling here */
 
 :root {
+  /* Slightly smaller font vs. simple.css */
   --base-fontsize: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* Different link color vs. simple.css */
+  :root {
+    --accent: #79c0ff;;
+    --accent-light: #cae8ff;
+  }
 }
 
 .anchor-link {
