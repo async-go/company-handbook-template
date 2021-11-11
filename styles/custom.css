@@ -1,8 +1,10 @@
 /* Add your own custom styling here */
 
 :root {
-  /* Slightly smaller font vs. simple.css */
+  /* Slightly less whitespace and smaller font vs. simple.css */
   --base-fontsize: 1rem;
+  --line-height: 1.4;
+  --header-scale: 1.2;
 }
 
 @media (prefers-color-scheme: dark) {
