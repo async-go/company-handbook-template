@@ -4,7 +4,11 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  extends: ["eslint:recommended", "plugin:react/recommended"],
+  extends: [
+    "eslint:recommended",
+    "plugin:@next/next/recommended",
+    "plugin:react/recommended",
+  ],
   settings: {
     react: {
       version: "detect",
@@ -18,5 +22,6 @@ module.exports = {
     sourceType: "module",
   },
   plugins: ["react"],
+  ignorePatterns: ["out", "node_modules"],
   rules: {},
 };
