@@ -14,10 +14,10 @@ export default function Layout({ children }) {
 
       <Header />
 
-        <main>
-          <Breadcrumbs />
-          {children}
-        </main>
+      <main>
+        <Breadcrumbs />
+        {children}
+      </main>
     </>
   );
 }

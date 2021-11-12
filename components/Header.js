@@ -5,10 +5,8 @@ export default function Header() {
     <>
       <header>
         <nav>
-            <a href="/">
-              Home
-            </a>
-            <a href="/company/team">Team</a>
+          <a href="/">Home</a>
+          <a href="/company/team">Team</a>
         </nav>
       </header>
     </>

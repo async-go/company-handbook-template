@@ -8,7 +8,7 @@ The content of this handbook is kept in a GitHub repository, with all of the pag
 
 ## Basic editing
 
-You can add `.md`, `.mdx`, `.js`, and `.jsx` files into any folders underneath `/pages`, and they will automatically render as pages, at the same path they are added.
+You can add `.md` files into any folders underneath `/pages`, and they will automatically render as pages, at the same path they are added. Be sure links match the file extension that you've indicated.
 
 ## Table of contents
 
@@ -27,6 +27,6 @@ You can get a lot of this handbook without taking advantage of any of the below 
 This handbook supports the use of embedded react components on markdown pages using MDX. To take advantage of this optional feature, you should:
 
 - Add your custom components to the `/components` folder
-- Modify your `.md` or `.mdx` files to import and use the components (both file extensions will process MDX if it is included.)
+- Modify your `.md` files to import and use the components (`.md` file extensions will process MDX if it is included.)
 
 Check the official MDX site to [learn more about MDX](https://mdxjs.com/mdx/).

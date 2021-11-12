@@ -11,4 +11,4 @@ We have a lot of ideas on how to improve this handbook template to make it easie
 ## Quick links
 
 - [Editing this handbook](./editing/)
-- [Team members](./company/team)
+- [Team members](./company/team.md)
