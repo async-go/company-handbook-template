@@ -11,7 +11,7 @@ export default function Breadcrumbs() {
       {router.route.split("/").map((part, index) => {
         if (index == 0) {
           return (
-            <React.Fragment key="/">
+            <React.Fragment key=".">
               <a href="/">Handbook</a>
             </React.Fragment>
           );
