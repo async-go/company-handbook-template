@@ -54,10 +54,7 @@ body {
   max-width: 1200px;
 }
 
-.edit-page-link {
-  padding-top: 1.25rem;
-}
-
 .page-helper {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
+  margin: 0.25rem;
 }

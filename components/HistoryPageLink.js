@@ -2,21 +2,21 @@ import { React } from "react";
 import getConfig from "next/config";
 import { useRouter } from "next/router";
 
-export default function EditPageLink() {
+export default function HistoryPageLink() {
   const { publicRuntimeConfig } = getConfig();
-  const editRepositoryBase = publicRuntimeConfig.editRepositoryBase;
-  if (editRepositoryBase) {
-    var editUrl;
+  const historyRepositoryBase = publicRuntimeConfig.historyRepositoryBase;
+  if (historyRepositoryBase) {
+    var historyUrl;
     const router = useRouter();
     if (router.route.match(/\/$/)) {
-      editUrl = editRepositoryBase + "/index.md";
+      historyUrl = historyRepositoryBase + "/index.md";
     } else {
-      editUrl = editRepositoryBase + router.route + ".md";
+      historyUrl = historyRepositoryBase + router.route + ".md";
     }
     return (
       <>
         <p className="page-helper">
-          <a href={editUrl}>Edit this page</a>
+          <a href={historyUrl}>See page history</a>
         </p>
       </>
     );
