@@ -66,5 +66,8 @@ export default mdx({
       // of the current page from the root is added. No trailing slash. If unset,
       // no edit page link will be shown.
       "https://github.com/async-go/company-handbook-template/edit/main/pages",
+    handbookName:
+      // The name of the handbook as shown in the header
+      "Handbook Demo",
   },
 });
