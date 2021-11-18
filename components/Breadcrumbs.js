@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 export default function Breadcrumbs() {
   const router = useRouter();
   return (
-    <>
+    <p className="page-helper">
       {router.route.split("/").map((part, index) => {
         if (index == 0) {
           return (
@@ -25,6 +25,6 @@ export default function Breadcrumbs() {
           );
         }
       })}
-    </>
+    </p>
   );
 }

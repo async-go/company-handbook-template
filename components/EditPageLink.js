@@ -15,7 +15,7 @@ export default function EditPageLink() {
     }
     return (
       <>
-        <p className="edit-page-link">
+        <p className="edit-page-link page-helper">
           <a href={editUrl}>Edit this page</a>
         </p>
       </>
