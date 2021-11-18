@@ -32,7 +32,7 @@ export default function Layout({ children }) {
       <main>
         {breadcrumbs}
         {children}
-        <hr />
+        <br />
         {editPageLink}
         {historyPageLink}
       </main>
