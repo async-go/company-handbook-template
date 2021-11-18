@@ -40,6 +40,12 @@ Additionally, changes to a handbook often require updates to multiple places to 
 
 Finally, a static site offers a much deeper level of customization and automation for teams that want to go down that route.
 
+## Configuration
+
+There are various configuration values in `next.config.mjs`:
+
+- `editRepositoryBase` contains the path to your code host's edit page for your repo, which is used to create an "Edit this page" link on every page. This only works as-is if every page in your site uses the `.md` extension, which is the default behavior.
+
 ## Editing instructions
 
 The handbook is 'self-documenting' in that the content describing how to edit it is built and deployed with the handbook itself. You can read everything by browsing the editing documentation [in this repository](./pages/editing/index.md) or at `/editing/` on your deployed site.

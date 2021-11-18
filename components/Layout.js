@@ -1,10 +1,22 @@
 import Head from "next/head";
 import Header from "./Header";
 import Breadcrumbs from "./Breadcrumbs";
+import EditPageLink from "./EditPageLink";
 import { React } from "react";
 import PropTypes from "prop-types";
+import { useRouter } from "next/router";
 
 export default function Layout({ children }) {
+  const router = useRouter();
+
+  // Don't show breadcrumbs or edit page link on error pages
+  let breadcrumbs = null;
+  let editPageLink = null;
+  if (router.route !== "/_error" && router.route !== "/404") {
+    breadcrumbs = <Breadcrumbs />;
+    editPageLink = <EditPageLink />;
+  }
+
   return (
     <>
       <Head>
@@ -15,8 +27,9 @@ export default function Layout({ children }) {
       <Header />
 
       <main>
-        <Breadcrumbs />
+        {breadcrumbs}
         {children}
+        {editPageLink}
       </main>
     </>
   );

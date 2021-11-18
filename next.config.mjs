@@ -58,4 +58,13 @@ const mdx = withMDX({
 
 export default mdx({
   pageExtensions: ["md", "js", "jsx"],
+  publicRuntimeConfig: {
+    // Be sure to customize these values for your site. Changing these values
+    // requires restarting the dev server.
+    editRepositoryBase:
+      // This is the base path for the "edit this page" link. The relative path
+      // of the current page from the root is added. No trailing slash. If unset,
+      // no edit page link will be shown.
+      "https://github.com/async-go/company-handbook-template/edit/main/pages",
+  },
 });

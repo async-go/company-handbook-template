@@ -53,3 +53,7 @@ body {
   /* Make width wider for handbook use case vs. simple.css */
   max-width: 1200px;
 }
+
+.edit-page-link {
+  padding-top: 1.25rem;
+}

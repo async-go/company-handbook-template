@@ -1,11 +1,8 @@
-import { useRouter } from "next/router";
 import React from "react";
+import { useRouter } from "next/router";
 
 export default function Breadcrumbs() {
   const router = useRouter();
-  if (router.route == "/_error" || router.route == "/404") {
-    return null;
-  }
   return (
     <>
       {router.route.split("/").map((part, index) => {
