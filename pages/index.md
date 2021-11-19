@@ -4,6 +4,11 @@ This is what your future company handbook would look like if you use this templa
 
 We have a lot of ideas on how to improve this handbook template to make it easier to get started. You can check out our public [issues tracker](https://github.com/async-go/company-handbook-template/issues) and see what we have planned or submit your own ideas.
 
+## Company
+
+- [Strategy](./strategy/index.md)
+- [Team members](./company/team.md)
+
 ## Departments
 
 Each of our departments has their own sub-section of the handbook.
@@ -13,7 +18,6 @@ Each of our departments has their own sub-section of the handbook.
 - [Marketing](./marketing/index.md)
 - [Sales](./sales/index.md)
 
-## Quick links
+## Other links
 
 - [Editing this handbook](./editing/index.md)
-- [Team members](./company/team.md)
