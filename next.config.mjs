@@ -42,7 +42,11 @@ const mdx = withMDX({
                 return;
               }
               if (parsedUrl.pathname) {
-                // Trim .md extension from links
+                // Trim (index).md extension from links
+                parsedUrl.pathname = parsedUrl.pathname.replace(
+                  /\/index\.md$/,
+                  ""
+                );
                 parsedUrl.pathname = parsedUrl.pathname.replace(/\.md$/, "");
                 match.node.properties[match.propertyName] =
                   url.format(parsedUrl);
