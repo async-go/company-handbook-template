@@ -27,13 +27,13 @@
 .anchor-link {
   padding-left: 1rem;
   font-size: 1rem;
-  color: var(--text-light);
+  color: var(--border);
 }
 
 .anchor-link:hover {
   padding-left: 1rem;
   font-size: 1rem;
-  color: var(--accent);
+  color: var(--text-light);
 }
 
 header {
