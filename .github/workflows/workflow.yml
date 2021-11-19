@@ -1,11 +1,12 @@
-name: GitHub Actions Demo
 on: [push]
 jobs:
-  Prettier:
+  prettier:
     runs-on: ubuntu-20.04
     steps:
-      - name: Check out repository code
-        uses: actions/checkout@v2
-      - name: Install dependencies
-      - run: yarn install
-      - name: Prettier
+      - uses: actions/checkout@v2
+      - uses: borales/actions-yarn@v2.3.0
+        with:
+          cmd: install # will run `yarn install` command
+      - uses: borales/actions-yarn@v2.3.0
+        with:
+          cmd: prettier # will run `yarn build` command
