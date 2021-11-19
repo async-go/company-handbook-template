@@ -5,6 +5,13 @@ import rehypeHeadings from "rehype-autolink-headings";
 import rehypeUrl from "rehype-url-inspector";
 import url from "url";
 
+function trimUrl(url) {
+  // Utility function to remove (index).md from page URLs
+  url = url.replace(/\/index\.md$/, "");
+  url = url.replace(/\.md$/, "");
+  return url;
+}
+
 const mdx = withMDX({
   extension: /\.(md)$/,
   options: {
@@ -43,11 +50,7 @@ const mdx = withMDX({
               }
               if (parsedUrl.pathname) {
                 // Trim (index).md extension from links
-                parsedUrl.pathname = parsedUrl.pathname.replace(
-                  /\/index\.md$/,
-                  ""
-                );
-                parsedUrl.pathname = parsedUrl.pathname.replace(/\.md$/, "");
+                parsedUrl.pathname = trimUrl(parsedUrl.pathname);
                 match.node.properties[match.propertyName] =
                   url.format(parsedUrl);
               }
@@ -65,9 +68,11 @@ export default mdx({
   publicRuntimeConfig: {
     // Be sure to customize these values for your site. Changing these values
     // requires restarting the dev server.
-    handbookName:
-      // The name of the handbook as shown in the header
-      "Handbook Demo",
+    headerLinks: {
+      // A list of links for the header of every page, relative to root.
+      "Handbook Home": "/",
+      Team: "/company/team/index.md",
+    },
     editRepositoryBase:
       // This is the base path for the "edit this page" link. The relative path
       // of the current page from the root is added. No trailing slash. If unset,
