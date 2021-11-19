@@ -70,7 +70,7 @@ export default mdx({
     // requires restarting the dev server.
     headerLinks: {
       // A list of links for the header of every page, relative to root.
-      "Handbook Home": "/",
+      Home: "/",
       Team: "/company/team/index.md",
     },
     editRepositoryBase:
